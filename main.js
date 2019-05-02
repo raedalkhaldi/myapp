@@ -33,7 +33,7 @@ $(document).ready(function () {
             topMovies.push(data.results[i]);
             $(`#${i} > #name`).text(topMovies[i].title);
             $(`#${i} > #poster-image`).text(topMovies[i].poster_path);
-            $(`#${i} > #poster-image`).attr('src', 'http://image.tmdb.org/t/p/w185/' + topMovies[i].poster_path);
+            $(`#${i} > #poster-image`).attr('src', 'https://image.tmdb.org/t/p/w185/' + topMovies[i].poster_path);
             console.log(topMovies[i].title);
           
 
